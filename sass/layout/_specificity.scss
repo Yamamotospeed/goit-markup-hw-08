@@ -52,6 +52,9 @@
     text-transform: uppercase;
     color: #212121;
     margin-bottom: 10px;
+    @include tablet {
+        text-align: initial;
+    }
     @include desktop {
         text-align: initial;
     }

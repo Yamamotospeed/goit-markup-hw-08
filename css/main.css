@@ -705,6 +705,11 @@ body {
   color: #212121;
   margin-bottom: 10px;
 }
+@media screen and (min-width: 768px) {
+  .specificity-list__title {
+    text-align: initial;
+  }
+}
 @media screen and (min-width: 1200px) {
   .specificity-list__title {
     text-align: initial;
@@ -779,7 +784,7 @@ body {
 .team {
   background-color: var(--second-background);
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .team {
@@ -1170,6 +1175,11 @@ body {
 }
 .footer-input:focus {
   border-color: var(--accent-color);
+}
+@media screen and (min-width: 768px) {
+  .footer-input {
+    width: 450px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .footer-input {
